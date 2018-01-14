@@ -9,6 +9,7 @@ function removeFromPlaylist(playlist, artistName) {
   console.log(delete playlist.artistName);
   console.log(playlist)
   delete playlist[artistName]
+  console.log(playlist)
   return playlist
 }
 
